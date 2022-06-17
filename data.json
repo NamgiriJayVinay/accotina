@@ -1,0 +1,175 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+         "tag": "position",
+         "patterns": ["who is ceo of accolite", "ceo", "Ceo of Accolite","Who started accolite?","Leela Khaza"],
+         "responses": ["The CEO of Accolite is Mr. Leela Kaza, Chairman & CEO, Accolite Digital, leads a formidable team of world-class IT professionals who are bringing in key differentiation into the market by solving the most complex digital problems through AI-enabled digital transformation services."]
+        },
+        {
+          "tag": "board",
+          "patterns": ["Who are the board members of Accolite?","board members","Accolite Board members"],
+          "responses": ["The board members of Accolite are Arjun Malhotra, Bask Iyer, Mark Berthiaume, Michael Baresich, Mittu Sridhara, Per Borgklint"]
+        },
+        {
+          "tag": "history",
+          "patterns": ["When was accolite established?", "When was accolite started?", "When was Accolite founded?"],
+          "responses": ["Accolite Digital was founded in 2007 and headquartered in Addison, TX, Accolite Digital is a digital transformation services provider to the banking and financial services, technology, healthcare, communications and media, and logistics industries"]
+        },
+        {
+          "tag": "vision",
+          "patterns": ["What is the vision of Accolite?","Accolite vision","vision of accolite"],
+          "responses": ["The vision of Accolite is to be an innovative, best-in-class digital transformation services provider led by design thinking and also to help our clients - Fortune 500 companies - solve complex business problems through human-centric design and product innovation approach."]
+        },
+        {
+          "tag": "services",
+          "patterns": ["Services at Accolite?","What are the available services in Accolite?","What kind of services does Accolite offer?"],
+          "responses": ["Accolite Digital provides services like Digital Product Engineering, Cloud Engineering and DevOps, Data and AI, Customer Experience and Design, Cybersecurity"]
+        },
+        {
+          "tag": "industries",
+          "patterns": ["What kind of industries does Accolite work with?","Industries that Accolite is working?","Industries at Accolite","Various business units at Accolite","industries","business units"],
+          "responses": ["Accolite works with industries like Banking and Financial Services, \nInsurance, \nTechnology, \nMedia and Telecom, \nHealthcare, \nLogistics"]
+        },
+        {
+          "tag": "products",
+          "patterns": ["What are the products of Accolite?","accolite products","products"],
+          "responses": ["Products of Accolite are EduThrill, Codelyzer, CopperEgg"]
+        },
+        {
+          "tag": "Eduthrill",
+          "patterns": ["What is Eduthrill?","Eduthrill","About Eduthrill","Use of Eduthrill"],
+          "responses": ["EduThrill is a gamified hiring, learning & assessment platform, available across mobile and web formats. It has inbuilt test and assessment tools, making it unique and makes learning a fun filled activity. With EduThrill, organizations can reduce recruitment effort and costs by 50% and include superior learning assessments. For more details or a demo, please visit this link or write to support@eduthril.com", "Eduthrill is a Accolite Product that can be used by Corporates, Educational Institutions, Students, Job Seekers and Professionals"]
+        },
+       {
+         "tag": "Codelyzer",
+         "patterns": ["What is Codelyzer?","Codelyzer","About Codelyzer"],
+         "responses": ["Codelyzer is our proprietary platform for automated evaluation of IT Candidates on Coding, Design, Architecture and Quality Parameters. For more details or a demo, please visit this link or write to support@codelyzer.com."]
+       },
+       {
+         "tag": "codelyzerfeature",
+         "patterns": ["What are the features of Codelyzer","Features of Codelyzer","Why to use Codelyzer?"],
+         "responses": ["Key features of the Codelyzer platform are Evaluate Coding, Designing, Problem Solving, Algorithmic, Solution Performance capabilities and Complete automated assessment providing huge insights into candidate’s functional skills. Thorough quality evaluation and detailed reporting for each submission. Supports multiple languages including Java, C++, .NET, Angular JS and more."]
+       },
+       {
+         "tag": "copperegg",
+         "patterns": ["What is CopperEgg?","Tell me something about Copperegg","CopperEgg","Features of Copperegg"],
+         "responses": ["CopperEgg is a SaaS product for monitoring and alerting on your business-critical systems and applications hosted either on-premises or on cloud. For more details or a demo, please visit this link or write to support@copperegg.com. Features and advantages of CopperEgg are Elastic Pricing, Unified Monitoring, Integrations, Apex Rating, Ease of Use, Mobile Monitoring"]
+       },
+       {
+         "tag": "locations",
+         "patterns": ["what are the locations of accolite in India?","Accolite India loactions","Offices in India","Branches in India"],
+         "responses": ["Locations of Accolite in India : Hyderabad, Bangalore, Gurugaon, Chennai."]
+       },
+       {
+         "tag": "careers",
+         "patterns": ["Are there any openings in Accolite?","careers at accolite","Career options in Accolite?","Roles available in Accolite?","Openings in Accolite","Job opportunites in accolite"],
+         "responses": ["To find suitable job based on your domain and skill set visit \"https://www.accolite.com/careers/jobs-in-india\""]
+       },
+       {
+         "tag": "openings_helpdesk",
+         "patterns": ["Whom can I contact for job opportunities?","Whom should I mail for job opportunites?"],
+         "responses": ["Send in your resume at careers@accolitedigital.com and we will get in touch with you whenever there’s anything relevant."]
+       },
+       {
+        "tag": "shecodes",
+        "patterns": ["What is SheCodes?","Who can apply for SheCodes?","How can I apply for SheCodes?","Where can I apply for SheCodes?"],
+        "responses": ["SheCodes is providing opportunities for women in technologies, Transforming the Future with Women Technologists. To apply for SheCodes visit https://www.accolite.com/careers/shecodes"]
+       },
+       {
+         "tag": "helpdesk",
+         "patterns": ["help support","how to contact for support","helpdesk mail ids","IT support"],
+         "responses": ["IT help desk mail:IT.helpdesk@accolitedigital.com"]
+       },
+       {
+         "tag": "AIMS",
+         "patterns": ["What is AIMS?","Who can use AIMS?","AIMS","AIMS full form"],
+         "responses": ["AIMS is Accolite Internal Management System, which is exclusively for all the Accolite Employees.If  you are a Accolite Employee you can sign in using this link https://apps.accolite.com/ ."]
+       },
+       {
+         "tag": "timesheet_filling",
+         "patterns": ["How to fill timesheets?","How can i fill timesheets?","Where can i fill my timesheets?","Filling timesheets"],
+         "responses": ["Browse to https://apps.accolite.com/pages/mycards and click on \"Swift\" card. Sign in into your Oracle cloud account and you can fill your current and existing timecards."]
+       },
+       {
+         "tag": "approval",
+         "patterns": ["Who can approve my attendance?","Who can approve my timesheets?","who can approve my darwinbox attendance?","Who can approve my leave?"],
+         "responses": ["Your Manager: XYZ. To know more about your manager visit https://accolitedigital.darwinbox.com/ and click on view profile."]
+       },
+       {
+         "tag": "raise_ticket",
+         "patterns": ["Where can raise a ticket?","Where can I get IT suport?","How to raise a ticket?","How to create an issue?"],
+         "responses": ["Visit https://accolitedigital.darwinbox.com/ms/helpdesk/helpdesk/issues/my-raised-issues to get IT support, create a issue or raise a ticket"]
+       },
+       {
+         "tag": "ticket_status",
+         "patterns": ["What is the status of my raised ticket?","list of my raised tickets","Who is assigned to my issue?"],
+         "responses": ["Visit https://accolitedigital.darwinbox.com/ms/helpdesk/issues/my-raised-issues visit this link to know more about your raised issues\""]
+       },
+       {
+         "tag": "holidays",
+         "patterns": ["Where can i find list of holidays?","How many holidays are there in this month?","How many holidays are there in this year","List of holidays","Holidays list","Can you give me the list of holidays?"],
+         "responses": ["Click on below link to view the list of holidays https://accolitedigital.darwinbox.com/leaves?fromChatBot=check_holidays"]
+       },
+       {
+         "tag": "tutorials",
+         "patterns": ["trainings","Where can I access tutorials","How to access Darwin Box Tutorials?","How to access timesheet tutorials?","Where can I access swift timesheet tutorials?","How to access BMS Tutorials?","Where can I access BMS Tutorials?"],
+         "responses": ["Visit https://apps.accolite.com/pages/mycards, to the right corner you can access Trainings and Help"]
+       },
+       {
+        "tag": "notice period",
+        "patterns": ["What is the duration of my notice period?"],
+        "responses": ["Notice period is for 15days starting from your date of resignation"]
+      },
+      {
+        "tag": "resignation",
+        "patterns": ["Whom should I contact for resignation process?","Who can help me with my resignation?","Where can I apply for resignation?"],
+        "responses": ["You should contact your Manager and HR for resignation and you need to follow the process through HRMS portal."]
+      },
+      {
+          "tag": "leave_policies",
+          "patterns": ["What are the leave policies in accolite?","How many casual leaves are allowed?","Leave policies","Maternity leaves","Leave"],
+          "responses": ["Leave Policy - Apply for Leaves through HRMS\nPrivilege/Earned Leave - 12 days\nCasual/Sick leave - 12 days\nNational holidays - 10 days\nPaternity leave - 5 days.\nMaternity leave- 26 weeks Bereavement Leave - 3 days\nCarry forward- 10 PL/ EL's\n3 and 5 Days Tenure Leaves."]
+      },
+      {
+         "tag": "referral",
+         "patterns": ["How can I refer a friend?","refer a friend","referral"],
+         "responses": ["You can refer a friend through Accolite's Employee Referral Program. Visit \"https://accolite-referral.turbohire.co/\" this link to find the current openings and refer a friend!"]
+      },
+      {
+         "tag": "intern",
+         "patterns": ["Internship program at Accolite?","Does Accolite hire interns?","internship at accolite?"],
+         "responses": ["At Accolite Digital, we give you the opportunity to work on live projects, solve business challenges, and develop skills that will help you excel as professionals.To join Accolite Internship program send in your resumes to campus.hiring@accolitedigital.com"]
+      },
+      {
+        "tag": "intern_duration",
+        "patterns": ["What is the internship duration?","internship duration period?","internship period"],
+        "responses": ["Internship at Accolite would be for 6 months."]
+      },
+      {
+         "tag": "connect",
+         "patterns": ["Accolite digital connect","What is accolite digital connect?","List of ongoing webinars","What are the ongoing webinars?"],
+         "responses": ["Accolite Digital Connect - our tech talk series brings a rich blend of business insights and domain expertise along with live Q&A with our experts. Visit https://www.accolite.com/insights/accolite-digital-connect to register for upcoming webinars"]
+      },
+     {
+        "tag": "leave_application",
+        "patterns": ["Where can I apply for leave?","leave application","How to apply for a leave?"],
+        "responses": ["You have to apply for leave in Darwinbox. Log in into your Darwinbox account -> Click on View Profile -> To the left dashboard you can find the leave option."]
+     },
+      {
+         "tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+      }
+   ]
+}
